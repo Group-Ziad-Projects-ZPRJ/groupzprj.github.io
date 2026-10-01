@@ -1,1 +1,73 @@
-comingsoon 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="data:,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Group ZPRJ — Coming Soon</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: light-dark(#121316, #121316);
+      --text: light-dark(#e5e7eb, #e5e7eb);
+      --muted: light-dark(#9ca3af, #9ca3af);
+      --accent: light-dark(#3b82f6, #3b82f6);
+      --card-bg: light-dark(#1e2025, #1e2025);
+      --border: light-dark(#2e323b, #2e323b);
+    }
+    html {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 2em;
+      box-sizing: border-box;
+      display: grid;
+      place-content: center;
+      text-align: center;
+    }
+    .container {
+      max-width: 28em;
+      padding: 3em 2em;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      margin: 0 0 0.5em;
+      font-size: 2rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    p {
+      color: var(--muted);
+      margin: 0 0 1.5em;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.4em 0.8em;
+      background: rgba(59, 130, 246, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Coming Soon</div>
+    <h1>Group ZPRJ</h1>
+    <p>Something new is currently in development. Check back soon for updates.</p>
+  </div>
+</body>
+</html>
